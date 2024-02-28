@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#order{
+    margin: 10px;
+    padding: 10px;
+    height: fit-content;
+    background-color: bisque;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 3px;
+    
+}
+.ytvideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.OG-pge{
+    /* border: 1px solid black; */
+    width: 100vw;
+    width: 100%;
+    height: 100vh;
+    /* height: 100%; */
+}
+
+.OG-child
+{
+    /* border: 1px solid black ; */
+    height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    padding: 2px;
+    height: 5%;
+
+}
+
+#Head-content{
+    padding: 3px;
+    margin: 3px;
+    font: 1.2rem "Fira Sans", sans-serif;
+    font-size: 90%;
+    display: flex;
+    align-items: end;
+}
+.login-area{
+    /* border: 1px solid black; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86%;
+    position: relative;
+}
+.login-layout{
+    /* border: 1px solid black; */
+    background-color: rgb(250, 250, 250);
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* height: %; */
+}
+
+.content-layout
+{
+    display: flex;
+    /* background-color: aquamarine; */
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-content
+{
+    font:1.2rem "Fira Sans", sans-serif ;
+}
+
+.detail-layout
+{
+    display: block;
+    /* background-color: rgb(174, 185, 214); */
+    height: 40%;
+    justify-content: space-around;
+    align-items: center ;
+
+}
+
+.number-layout
+{
+    display: flex;
+    /* background-color: rgb(180, 141, 34); */
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    /* border-radius: 8px; */
+}
+.IN_PhoneNo
+{
+    display: flex;
+    width: 90%;
+    background-color: aliceblue;
+    height: 98%;
+    align-items: center;
+    border-radius: 8px;
+    
+}
+.number-section
+{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.08);
+    width: 0.4%;
+    height: 12px;
+    /* padding: 1px; */
+}
+.option-area
+{
+    display: flex;
+    height: 98%;
+    justify-content: center;
+    align-items: center;
+}
+.option-element
+{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Phone-content
+{
+    padding: 8px;
+    width: 7%;
+}
+
+#store-number
+{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    width: 92.6% ;
+    height: 98%;
+}
+#number
+{
+    height: 32px;
+    width: 280px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.pass-layout
+{
+    display: flex;
+    /* background-color: aquamarine; */
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 8px;
+    /* background-color: aliceblue; */
+}
+.IN_Pass
+{
+    display: flex;
+    width: 90%;
+    background-color: aliceblue;
+    height: 78%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px; 
+
+}
+.pass-privacy-logo
+{
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+#eye-icon
+{
+    font-size: 24px;
+    padding: 8px;
+}
+.store-password
+{
+    padding: 7px;
+}
+#pass
+{
+    height: 25px;
+    width: 280px;
+    padding: 4px;
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+}
+.button-layout
+{
+    height: 33%;
+    display: flex;
+    justify-content: center;
+}
+.IN_button{
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: end;
+}
+.button-area
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 62%;
+    background-color: rgb(212, 51, 51);
+    border-radius: 20px;
+}
+.button-area:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 62%;
+    background-color:azure;
+    border-radius: 20px;
+
+}
+#login-form
+{
+
+    height: 100%;
+}
+.sign_button
+{
+   height: 100%;
+   font-size: 17px;
+   width: 140px;
+   background-color: rgb(212, 51, 51);
+   color: azure;
+   border: none;
+   border-radius: 20px;
+}
+.sign_button:hover
+{
+    height: 100%;
+    font-size: 17px;
+    width: 140px;
+   background-color: azure;
+   color: rgb(212, 51, 51);
+   border: none;
+   border-radius: 20px;
+} 
+
+
+.option-layout
+{
+    height: 5%;
+}
+.other-login-layout
+{
+    display: flex;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+}
+.other-section
+{
+
+    width: 80px;
+    height: 3%;
+    background-color: rgba(0, 0, 0, 0.08);
+
+}
+.other-login-area
+{
+    /* background-color: rgb(77, 189, 153); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 230px;
+}
+p
+{
+    padding: 9px;
+    color: rgb(141, 141, 140);
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Titillium Web', sans-serif
+}
+.option-ML
+{
+
+    width: 50%;
+    height: 98%;
+}
+.option-GG
+{
+    width: 50%;
+    height: 98%;
+}
+.ML-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GG-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ML-image
+{
+    width: 40%;
+    height: 80%;
+
+}
+#gg-image
+{
+    width: 40%;
+    height: 80%;
+}
+.free-gap
+{
+    height: 15%;
+}
+.ML-spel
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.GG-spel
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+.foot-layout
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foot-area
+{
+     height: 50px;
+}
+.foot{
+    height: 10%;
+    background-color: black;
+}
